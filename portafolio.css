@@ -1,0 +1,105 @@
+#portafolio{
+  	border:solid 1px;
+  	border-radius: 8px; /* El estándar.*/
+  	border-color:#d5d5d5;
+  	margin:auto;
+  	margin-top:25px;
+  	height:478px;
+  	width:818px;
+  	overflow: hidden;
+  	-moz-border-radius: 8px; /* Firefox*/
+	-ms-border-radius: 8px; /* IE 8.*/
+	-webkit-border-radius: 8px; /* Safari,Chrome.*/
+	behavior: url(PIE.htc);
+  }
+
+  #paginas{
+ 
+  	height:340px;
+  	overflow: hidden;
+  
+  }
+
+  #principal1{
+  	
+  	background: transparent url(arribag.png) bottom no-repeat;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader (src='abajog.png',sizingMethod='crop'); /* IE6-8 */
+	height:530px;
+	overflow: hidden;
+	width:875px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='abajog.png',sizingMethod='crop')"; /* solo IE8 */
+	margin-bottom:20px;
+  }
+
+
+  .multiplebgs #principal1 {
+			background: url("arribag.png") bottom  no-repeat,
+			url("abajog.png") top no-repeat; 
+		}
+
+		.divisores{
+			width:818px;
+			height:340px;
+			float:left;
+			overflow: hidden;
+			margin-left:0px;
+			background-color: #fff;
+	
+		}
+		.texto{
+			
+			float:left;
+			margin-left:30px;
+			margin-top:30px;
+			width:330px;
+			color:#636363;
+			text-align:justify;
+			
+		}
+		.imagen{
+			float:right;
+			height:388px;
+			overflow: hidden;
+			margin-right:30px;
+			margin-top:30px;
+			width:398px;
+		}
+		.titulo{
+			margin-top:0px;
+			font-size:28px;
+			border:none;
+		}
+		#menu1{
+			margin-top:20px;
+		}
+		#menu1 ul{
+			list-style:none;
+			
+			width:370px;
+			margin:auto;
+			
+			padding-left:0px;
+
+		}
+		#menu1 ul li{
+			width:88px;
+			padding:5px;
+			margin-left:20px;
+			border:solid 1px;
+			border-color:#d5d5d5;
+			
+			display: inline-block;
+			
+		}
+
+		#porta .fondo{
+	-moz-border-radius: 5px; /* Firefox*/
+			-ms-border-radius: 5px; /* IE 8.*/
+			-webkit-border-radius: 5px; /* Safari,Chrome.*/
+			border-radius: 5px; /* El estándar.*/
+			behavior: url(PIE.htc);
+			background-color: #ffa429;
+			color:#fff;
+			padding:5px;
+}
+		

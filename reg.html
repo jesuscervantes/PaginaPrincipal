@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8"/>
+	<title>.:: System On Web ::.</title>
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
+    </script>
+ 
+  <link rel="stylesheet" type="text/css"  href="negocio.css" />
+
+  <style>
+  #registrar
+  {
+
+  	width:300px;
+  	margin:auto;
+  	border:solid 2px;
+  	border-color:orange;
+  	border-radius:10px;
+  	background-color: #FFF;
+  	padding:5%;
+
+
+  }
+
+ 	#registrar
+  {
+  	display: block;
+  }
+  #registrar input
+  {
+  	width:90%;
+  	padding:5px;
+  	border-radius:3px;
+  	margin-bottom:10px;
+
+  }
+  #registrar input[type=submit]
+  {
+  	margin-left:0px;
+  	width:95%;
+  	font-weight:bold;
+  }
+  #registrar input[type=password]
+  {
+  	margin-bottom:20px;
+
+
+  }
+
+ 
+  </style>
+
+
+
+</head>
+<body>
+	<section id="registrar">
+
+		<form  name="registrate" method="post">
+
+					Nombre(s):
+					
+					<input type="text" name="nombre" pattern="^[a-z].*" id="nombre" title="nombre" placeholder="Tu nombre completo"required>
+					
+					Correo:
+					<input type="email" name="mail" id="mail" title="mail" placeholder="Ejem: xxxxx@hotmail.com" required>
+
+					
+
+					Empresa:
+					<input type="text" name="empresa" id="empresa" title="empresa" placeholder="Ejem: la preferida" required>
+					Clave:
+					<input type="password" name="pass" id="password" title="pass" placeholder="Ingresa tu contraseña" onkeyup="muestra_seguridad_clave(this.value, this.form)" >
+					<input type="submit" value="Registrarse" title="Enviar" id="enviar" style="cursor:pointer">
+					</form>
+
+
+	</section>
+
+	
+
+</body>
+</html>

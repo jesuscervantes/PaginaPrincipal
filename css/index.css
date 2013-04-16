@@ -1,0 +1,102 @@
+#inicio .fondo{
+	-moz-border-radius: 5px; /* Firefox*/
+			-ms-border-radius: 5px; /* IE 8.*/
+			-webkit-border-radius: 5px; /* Safari,Chrome.*/
+			border-radius: 5px; /* El estándar.*/
+			background-color: #ffa429;
+			color:#fff;
+			padding:5px;
+}
+#test
+{
+	margin-top:0px;
+	padding-top:70px;
+	padding-bottom:10px;
+
+}
+
+#clientes
+{
+	list-style-type: none;
+	padding: 15px;
+	text-align:justify;
+}
+#registro
+{
+	cursor: pointer;
+}
+
+   #bgtransparent
+		   {
+
+
+			     background: #000;
+				position: fixed; left: 0; top: 0;
+				width: 100%; height: 100%;
+				opacity: .80;
+				z-index: 100;
+			        filter:alpha(opacity=60);
+				
+			}
+		
+		
+
+			#bgmodal
+			{
+			      	position:absolute;
+			        font-family:arial;
+					overflow:hidden;
+			        font-size:1em;
+					margin-bottom:100px;
+			        background-color:transparent;
+					z-index:120;
+			}
+			#registrar
+			  {
+
+
+			  	width:280px;
+			  	margin:auto;
+			  	border:solid 6px;
+			  	border-color:#f28010;
+			  	border-radius:10px;
+			  	background-color: #FFF;
+			  	padding:5%;
+			  	z-index: 200;
+
+
+			  }
+
+ 	#registrar
+  {
+  	display: block;
+  }
+  #registrar input
+  {
+  	width:90%;
+  	padding:5px;
+  	border-radius:3px;
+  	margin-bottom:10px;
+
+  }
+  #registrar input[type=submit]
+  {
+  	margin-left:0px;
+  	width:95%;
+  	font-weight:bold;
+  }
+  #registrar input[type=password]
+  {
+  	margin-bottom:20px;
+
+
+  }
+  #cerrar
+  {
+  	position: absolute;
+  	margin-top:-35px;
+  	margin-left:-30px;
+  	text-decoration:underline;
+  	cursor:pointer;
+  	font-size:13px;
+  }
